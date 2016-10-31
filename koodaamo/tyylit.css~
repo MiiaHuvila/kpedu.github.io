@@ -1,0 +1,59 @@
+/* ****************************************
+    NAV - DESKTOP
+**************************************** */
+.nav-desktop{
+    height: 70px;
+    background: #CDDC39;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.nav-desktop li{
+    background: #CDDC39;
+    line-height: 70px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.nav-desktop a{
+        color: white;
+}
+.menu-text{
+    color: white;
+}
+/* ****************************************
+    WRAP - STYLE
+**************************************** */
+.wrap{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/* ****************************************
+    MAIN - SECTION
+**************************************** */
+.main{
+    padding: 80px 0px;
+    background: white;
+}
+.main h1{
+    text-align: center;
+}
+/* ****************************************
+    SECONDARY - SECTION
+**************************************** */
+.secondary{
+    padding: 80px 0px;
+    background: white;
+}
+.right{
+    text-align: right;
+}
+/* ****************************************
+    GREY - SECTION
+**************************************** */
+.grey{
+    background: #d9d9d9;
+}
+.grey hr{
+    border-color: white;
+}
+
