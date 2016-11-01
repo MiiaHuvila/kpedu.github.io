@@ -107,6 +107,9 @@
 .footer li {
   list-style-type: none; }
 
+.footer a {
+  color: white; }
+
 .footer i:before {
   font-size: 25px; }
 
