@@ -3,12 +3,12 @@
 **************************************** */
 .nav-desktop {
   height: 70px;
-  background: #CDDC39;
+  background: #FF5622;
   padding-top: 0px;
   padding-bottom: 0px; }
 
 .nav-desktop li {
-  background: #CDDC39;
+  background: #FF5622;
   line-height: 70px;
   padding-top: 0px;
   padding-bottom: 0px; }
@@ -36,7 +36,7 @@
     NAV - MOBILE
 **************************************** */
 .title-bar {
-  background: #CDDC39;
+  background: #FF5622;
   height: 60px;
   line-height: 60px;
   padding-top: 0px;
@@ -55,7 +55,7 @@
   background: transparent; }
 
 #valikko a {
-  color: #CDDC39; }
+  color: #FF5622; }
 
 #valikko a:hover {
   color: #e6e6e6; }
@@ -105,7 +105,7 @@
 **************************************** */
 .footer {
   padding: 50px 0px 200px 0px;
-  background-color: #E64916;
+  background-color: #2196F3;
   color: white; }
 
 .footer li {
