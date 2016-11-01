@@ -73,7 +73,7 @@
 **************************************** */
 .main {
   padding: 85px 0px;
-  background-image: url("http://cosmo.kpedu.fi/~miiahuvila/koodaamo/kuvanen.png");
+  background-image: url("https://kpedu.github.io/demokuva_levea.png");
   background-repeat: repeat-x;
   /*	background: $primary-color; */
   color: white; }
@@ -84,6 +84,13 @@
 /* ****************************************
     SECONDARY - SECTION
 **************************************** */
+#juttu {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+#rivi {
+  max-width: 3000000px; }
+
 .secondary {
   padding: 80px 0px;
   background: white; }
