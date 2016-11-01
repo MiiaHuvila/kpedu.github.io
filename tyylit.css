@@ -28,6 +28,10 @@
   font-size: 20px;
   display: block; }
 
+.top-bar-section {
+  text-align: center;
+  display: inline-block; }
+
 /* ****************************************
     NAV - MOBILE
 **************************************** */
