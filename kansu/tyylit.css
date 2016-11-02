@@ -125,6 +125,21 @@
   font-size: 25px; }
 
 /* ****************************************
+    ORBIT - STYLE
+**************************************** */
+.orbit-container:before {
+  height: auto; }
+
+.orbit-slide {
+  background: #e6e6e6; }
+
+.orbit-image {
+  max-width: 200px; }
+
+.orbit-bullets {
+  display: none; }
+
+/* ****************************************
     MEDIA - QUARY
 **************************************** */
 @media (max-width: 700px) {
