@@ -7,7 +7,8 @@
 <title>Kpedu Koodaamo</title>
 <link rel="stylesheet" href="node_modules/foundation-sites/dist/foundation.min.css" />
 <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
+<link rel="stylesheet" href="slick-1.6.0/slick/slick.css">
+<link rel="stylesheet" href="slick-1.6.0/slick/slick-theme.css">
 <link rel="stylesheet" href="tyylit.css" />
 </head>
 <body>
@@ -42,28 +43,14 @@
 <h1>Kalajoen Nuorisoseura</h1>
 </div>
 </div>
-<div class="orbit" role="region" aria-label="Sponsorimme" data-orbit>
-<ul class="orbit-container">
-<li class="orbit-slide is-active">
-    <div class="row">
-    <div class="small-6 medium-4 large-3 small-centered medium-centered large-centered columns">
-     <img class="orbit-image" src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png">
-    </div>
-    </div>
-</li>
-<li class="orbit-slide">
-  <div class="row">
-    <div class="small-6 medium-4 large-3 small-centered medium-centered large-centered columns">
-   <img class="orbit-image" src="https://s.w.org/about/images/logos/wordpress-logo-simplified-rgb.png">
-   </div>
-  </div>
-</li>
-</ul>
-<nav class="orbit-bullets">
-  <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-  <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-</nav>
-</div>
+<div class="small-centered large-centered sponsorikaruselli">
+	<div><img src="https://s.w.org/about/images/logos/wordpress-logo-simplified-rgb.png"></div>
+	<div><img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png"></div>
+	<div><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1017px-Starbucks_Corporation_Logo_2011.svg.png"></div>
+	<div><img src="http://bumbacoin.com/images/github-10-xxl.png"></div>
+	<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/2000px-NBC_logo.svg.png"></div>
+	<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Beats_Electronics_logo.svg/2000px-Beats_Electronics_logo.svg.png"></div>
+	<div><img src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/2014/02/Olympic-logo.png"></div>
 </div>
 <!-- Navipalkki pöytäkone  -->
 <div class="top-bar nav-desktop">
@@ -139,6 +126,74 @@ non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <script src="node_modules/foundation-sites/dist/foundation.min.js"></script>
 <script>
 	$(document).foundation();
+</script>
+<script src="slick-1.6.0/slick/slick.min.js"></script>
+<script>
+$('.sponsorikaruselli').slick({
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+  {
+      breakpoint: 7680,
+      settings: {
+        slidesToShow: 6,
+        slidesToScroll: 1,
+      }
+    },
+  {
+      breakpoint: 1600,
+      settings: {
+        slidesToShow: 6,
+        slidesToScroll: 1,
+      }
+    },
+  {
+      breakpoint: 1440,
+      settings: {
+        slidesToShow: 6,
+        slidesToScroll: 1,
+      }
+    },
+  {
+      breakpoint: 1366,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 1,
+      }
+    },
+  {
+      breakpoint: 1280,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
 </script>                                                        
 </body>
 </html>
