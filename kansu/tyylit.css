@@ -145,6 +145,16 @@
   display: none; }
 
 /* ****************************************
+    SPONSORIKARUSELLI - STYLES
+**************************************** */
+.sponsorikaruselli img {
+  max-height: 150px;
+  max-width: 250px; }
+
+.sponsorikaruselli {
+  background: #F88D29; }
+
+/* ****************************************
     MEDIA - QUARY
 **************************************** */
 @media (max-width: 700px) {
