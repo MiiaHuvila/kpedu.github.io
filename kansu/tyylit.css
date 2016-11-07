@@ -24,13 +24,23 @@
   line-height: 70px; }
 
 .menu li a {
-  line-height: 40px;
+  line-height: 69px;
   font-size: 20px;
-  display: block; }
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.menu {
+  -webkit-margin-before: -0.05em;
+  -webkit-margin-after: -0.05em; }
+
+.menu li a:hover {
+  background: #e67300; }
 
 .top-bar-section {
   text-align: center;
-  display: inline-block; }
+  display: inline-block;
+  align-items: center; }
 
 /* ****************************************
     NAV - MOBILE
