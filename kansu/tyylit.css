@@ -34,6 +34,9 @@
   padding-top: 0;
   padding-bottom: 0; }
 
+.menu li a:hover {
+  color: #e6e6e6; }
+
 .dropdown.menu > li.is-dropdown-submenu-parent > a:after {
   border-color: white transparent transparent; }
 
