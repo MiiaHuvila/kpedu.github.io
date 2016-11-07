@@ -23,24 +23,19 @@
 .top-bar-right li {
   line-height: 70px; }
 
+.top-bar, .top-bar ul {
+  background-color: #F57C00;
+  padding-top: 0;
+  padding-bottom: 0; }
+
 .menu li a {
-  line-height: 69px;
   font-size: 20px;
   display: inline-block;
   padding-top: 0;
   padding-bottom: 0; }
 
-.menu {
-  -webkit-margin-before: -0.05em;
-  -webkit-margin-after: -0.05em; }
-
-.menu li a:hover {
-  background: #e67300; }
-
-.top-bar-section {
-  text-align: center;
-  display: inline-block;
-  align-items: center; }
+.dropdown.menu > li.is-dropdown-submenu-parent > a:after {
+  border-color: white transparent transparent; }
 
 /* ****************************************
     NAV - MOBILE
