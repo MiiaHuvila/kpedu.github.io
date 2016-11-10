@@ -234,8 +234,11 @@
 <script src="slick-1.6.0/slick/slick.min.js"></script>
 <script>
 $('.sponsorikaruselli').slick({
+  indinite: false,
   autoplay: true,
   autoplaySpeed: 2000,
+  centerMode: true,
+  variableWidth: true,
   responsive: [
   {
       breakpoint: 7680,
@@ -289,7 +292,7 @@ $('.sponsorikaruselli').slick({
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1
       }
     }
@@ -298,6 +301,6 @@ $('.sponsorikaruselli').slick({
     // instead of a settings object
   ]
 });
-</script>                                                        
+</script>                                                       
 </body>
 </html>
