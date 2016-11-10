@@ -81,8 +81,10 @@
 **************************************** */
 .main {
   padding: 85px 0px;
-  background-image: url("https://kpedu.github.io/demokuva_levea.png");
-  background-repeat: repeat-x;
+  background-image: url("http://cosmo.kpedu.fi/~miiahuvila/kpedu/kansu/logo.png"), url("http://cosmo.kpedu.fi/~miiahuvila/kpedu/demokuva_levea.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 200px, cover;
+  background-position: left top, left top;
   /*	background: $primary-color; */
   color: white; }
 
@@ -160,7 +162,7 @@
   max-width: 250px; }
 
 .sponsorikaruselli {
-  background: #F88D29; }
+  background: white; }
 
 /* ****************************************
     OTTELUT - TAULU
@@ -191,13 +193,17 @@
   background: white;
   border-radius: 5px; }
 
+.card h2 {
+  color: #F57C00;
+  text-align: center; }
+
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
 
 .kortti {
-  padding: 2px 16px; }
+  padding: 20px 16px; }
 
-.card img {
-  border-radius: 5px 5px 0px 0px; }
+.kort {
+  padding-bottom: 25px; }
 
 /*# sourceMappingURL=tyylit.css.map */
