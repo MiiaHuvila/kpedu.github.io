@@ -159,7 +159,15 @@
 **************************************** */
 .sponsorikaruselli img {
   max-height: 150px;
-  max-width: 250px; }
+  max-width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.sponsorikuva {
+  padding-right: 10px;
+  padding-left: 10px; }
 
 .sponsorikaruselli {
   background: white; }
